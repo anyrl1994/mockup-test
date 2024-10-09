@@ -1,3 +1,4 @@
+//Dropdown
 function toggleMenu(element) {
     // Toggle the active class to the header for arrow rotation
     element.classList.toggle('active-submenu');
@@ -9,5 +10,10 @@ function toggleMenu(element) {
     } else {
       submenu.style.display = "block";
     }
+}
+
+//Open page
+function openPage(page) {
+  window.location.href = page;
 }
   
